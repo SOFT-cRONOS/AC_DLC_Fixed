@@ -1,0 +1,4 @@
+Crear ejecutable
+    LINUX: pyinstaller --add-data "collider.kn5:;" --name="AC_DLLFixed_Linux" Fixed.py
+    
+    WINDOWS: wine python -m PyInstaller --add-data "collider.kn5;." --name="AC_DLLFixed_Win" Fixed.py
